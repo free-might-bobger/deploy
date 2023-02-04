@@ -17,13 +17,13 @@ echo "Deployment started ..."
 #php artisan clear-compiled
 
 # Recreate cache
-php artisan optimize
+#php artisan optimize
 
 # Compile npm assets
 #npm run prod
 
 # Run database migrations
-php artisan migrate --force
+#php artisan migrate --force
 
 # Exit maintenance mode
 #php artisan up
