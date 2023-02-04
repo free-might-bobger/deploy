@@ -27,5 +27,7 @@ echo "Deployment started ..."
 
 # Exit maintenance mode
 #php artisan up
+cd deploy
+
 
 echo "Deployment finished!"
