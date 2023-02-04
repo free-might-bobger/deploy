@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: "cd /var/www/html && mkdir sample"
+          script: "cd /var/www/html/deploy && git pull origin main"
